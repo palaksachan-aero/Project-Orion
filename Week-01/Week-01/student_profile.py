@@ -1,0 +1,16 @@
+print("=" * 50)
+print("      Student Profile")
+print("=" * 50)
+
+name = input("Enter your name: ")
+branch = input("Enter your branch: ")
+semester = int(input("Enter your semester: "))
+cgpa = float(input("Enter your CGPA: "))
+dream = input("What is your dream career? ")
+
+print("\n----- PROFILE -----")
+print(f"Name      : {name}")
+print(f"Branch    : {branch}")
+print(f"Semester  : {semester}")
+print(f"CGPA      : {cgpa}")
+print(f"Dream     : {dream}")
